@@ -49,12 +49,12 @@ namespace _03_Simon_Says
 
         // Hint: "Default values"
 
-        //[TestMethod]
-        //public void ShouldRepeatANumberOfTimes()
-        //{
-        //    Simon simon = new Simon();
-        //    Assert.AreEqual("hello hello hello", simon.Repeat("hello", 3));
-        //}
+        [TestMethod]
+        public void ShouldRepeatANumberOfTimes()
+        {
+            Simon simon = new Simon();
+            Assert.AreEqual("hello hello hello", simon.Repeat("hello", 3));
+        }
 
         //    [TestMethod]
         //    public void ShouldRepeatANumberOfTimes()
@@ -68,12 +68,12 @@ namespace _03_Simon_Says
             Simon simon = new Simon();
             Assert.AreEqual("h", simon.StartOfWord("hello", 1));
         }
-        //[TestMethod]
-        //public void ReturnsFirstTwoLettersOfWord()
-        //{
-        //    Simon simon = new Simon();
-        //    Assert.AreEqual("Bo", simon.StartOfWord("Bob", 2));
-        //}
+        [TestMethod]
+        public void ReturnsFirstTwoLettersOfWord()
+        {
+            Simon simon = new Simon();
+            Assert.AreEqual("Bo", simon.StartOfWord("Bob", 2));
+        }
         //    [TestMethod]
         //    public void ReturnsFirstSeveralLettersOfWord()
         //    {
@@ -95,12 +95,12 @@ namespace _03_Simon_Says
         //        Simon simon = new Simon();
         //        Assert.AreEqual("Oh", simon.FirstWord("Oh Dear"));
         //    }
-        [TestMethod]
-        public void CapitilizeAWord()
-        {
-            Simon simon = new Simon();
-            Assert.AreEqual("Jaws", simon.Titleize("jaws"));
-        }
+        //[TestMethod]
+        //public void CapitilizeAWord()
+        //{
+        //    Simon simon = new Simon();
+        //    Assert.AreEqual("Jaws", simon.Titleize("jaws"));
+        //}
         //    [TestMethod]
         //    public void CapitilizeEveryWord()
         //    {
